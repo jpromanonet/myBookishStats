@@ -23,9 +23,55 @@
 
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12"></div>
-      </div>
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
+        style="padding-right: 5em;"
+      >
+        <a class="navbar-brand" href="http://jpromano.net">MBS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor03"
+          aria-controls="navbarColor03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./blogStats.php">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./studyStats.php">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./readingStats.php">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Login
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./runningStats.php">Sign Up</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./wlStats.php">Sign In</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
